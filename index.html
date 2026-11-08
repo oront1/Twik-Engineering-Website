@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twik Engineering</title>
+<meta name="description" content="Software for repair and returns teams. Try the RMA Manager demo.">
+<style>
+  :root { --ink: #12324f; --muted: #5b6b7b; --accent: #ed7321; --bg: #fbfaf8; --card: #ffffff; --line: #e4e0da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #e8eef4; --muted: #9aa8b6; --bg: #11161c; --card: #19212a; --line: #2a3440; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 880px; margin: 0 auto; padding: 72px 24px 96px; }
+  .mark { display: inline-flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; font-size: 15px; }
+  .mark i { width: 5px; height: 26px; background: var(--accent); border-radius: 2px; }
+  h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.15; margin: 56px 0 14px; letter-spacing: -.01em; }
+  p.lead { color: var(--muted); font-size: 18px; max-width: 46ch; margin: 0 0 48px; }
+  .card { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 28px; text-decoration: none; color: inherit; transition: border-color .15s ease; }
+  .card:hover, .card:focus-visible { border-color: var(--accent); outline: none; }
+  .card h2 { margin: 0 0 6px; font-size: 22px; }
+  .card p { margin: 0 0 18px; color: var(--muted); }
+  .card span { color: var(--accent); font-weight: 600; }
+  footer { margin-top: 72px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark"><i></i>Twik Engineering</div>
+  <h1>Software for repair and returns teams.</h1>
+  <p class="lead">Live demos run in your browser on sample data. Nothing to install, and nothing you change leaves your browser.</p>
+
+  <a class="card" href="rma-manager/">
+    <h2>RMA Manager</h2>
+    <p>Track every return from the customer's request to the repaired unit shipping back: statuses, technician findings, documents, file-server folders and role-based permissions.</p>
+    <span>Open the live demo →</span>
+  </a>
+
+  <footer>© 2026 Twik Engineering</footer>
+</main>
+</body>
+</html>
